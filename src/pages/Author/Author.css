@@ -1,0 +1,23 @@
+.deleteIcon {
+    color: red;
+    cursor: pointer;
+}
+
+.deleteIcon:hover {
+    color: darkred;
+}
+
+.newAuthor {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.updateAuthor {
+    color: green;
+    cursor: pointer;
+}
+
+.updateAuthor:hover {
+    color: darkgreen;
+} 
