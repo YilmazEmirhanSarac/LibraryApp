@@ -1,0 +1,23 @@
+.deleteIcon {
+    color: red;
+    cursor: pointer;
+}
+
+.deleteIcon:hover {
+    color: darkred;
+}
+
+.newBorrowBook {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.updateBorrow {
+    color: green;
+    cursor: pointer;
+}
+
+.updateBorrow:hover {
+    color: darkgreen;
+} 

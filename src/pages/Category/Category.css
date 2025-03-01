@@ -1,0 +1,23 @@
+.deleteIcon {
+    color: red;
+    cursor: pointer;
+}
+
+.deleteIcon:hover {
+    color: darkred;
+}
+
+.newCategory {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.updateCategory {
+    color: green;
+    cursor: pointer;
+}
+
+.updateCategory:hover {
+    color: darkgreen;
+} 

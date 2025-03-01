@@ -1,0 +1,23 @@
+.deleteIcon {
+    color: red;
+    cursor: pointer;
+}
+
+.deleteIcon:hover {
+    color: darkred;
+}
+
+.newPublisher {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.updatePublisher {
+    color: green;
+    cursor: pointer;
+}
+
+.updatePublisher:hover {
+    color: darkgreen;
+} 

@@ -1,0 +1,23 @@
+.deleteIcon {
+    color: red;
+    cursor: pointer;
+}
+
+.deleteIcon:hover {
+    color: darkred;
+}
+
+.newBook {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.updateBook {
+    color: green;
+    cursor: pointer;
+}
+
+.updateBook:hover {
+    color: darkgreen;
+} 

@@ -77,9 +77,9 @@ function Author() {
 
   return (
     <div>
-      <Typography variant='h4' style={{ textAlign: "center", margin: "20px"}}>Yazar Ekle</Typography>
+      <Typography variant='h4' style={{ textAlign: "left", margin: "auto", width: '90%', paddingTop: '3rem',}}>Yazar Bilgisi Ekle</Typography>
 
-      <div className='newAuthor'>
+      <div className='newAuthor' style={{ textAlign: "left", margin: "auto", width: '90%', paddingTop: '1rem', paddingBottom: '1rem', display: 'flex', justifyContent: 'flex-start'}}>
         {Object.keys(initialAuthor).map((key) => (
           <TextField
             key={key}
@@ -92,12 +92,12 @@ function Author() {
             }
           />
         ))}
-        <Button variant='contained' onClick={handleAuthorPost}>Yazar Ekle</Button>
+        <Button variant='contained' onClick={handleAuthorPost}  sx={{ width: '120px', height: '44px' }}>Ekle</Button>
       </div>
 
-      <Typography variant='h4' style={{ textAlign: "center", margin: "20px"}}>Yazar Bilgisi Guncelle</Typography>
-
-      <div className='newAuthor'>
+      <Typography variant='h4' sx={{ textAlign: "left", margin: "auto", width: '90%', paddingTop: '3rem'}}>Yazar Bilgisi Güncelle</Typography>
+      
+      <div className='newAuthor' style={{ textAlign: "left", margin: "auto", width: '90%', paddingTop: '1rem', paddingBottom: '1rem', display: 'flex', justifyContent: 'flex-start'}}>
         {Object.keys(initialAuthor).map((key) => (
           <TextField
             key={key}
@@ -110,19 +110,19 @@ function Author() {
             }
           />
         ))}
-        <Button variant='contained' onClick={handleUpdateAuthor}>Yazar Guncelle</Button>
+        <Button variant='contained' onClick={handleUpdateAuthor} sx={{ width: '120px', height: '44px' }}>Güncelle</Button>
       </div>
 
-      <Typography variant='h1' style={{ textAlign: "center", margin: "20px"}}>Yazarlar</Typography>
-      <TableContainer component={Paper}>
-      <Table sx={{ minWidth: 650 }} aria-label="simple table">
+      <Typography variant='h4' style={{ textAlign: "left", margin: "auto", width: '90%', paddingTop: '6rem', paddingBottom: '1rem'}}>Yazarlar</Typography>
+      <TableContainer component={Paper} sx={{ minWidth: 650, width: '90%', margin: 'auto' }}>
+      <Table sx={{ minWidth: 650, width: '100%', margin: 'auto' }} aria-label="simple table">
         <TableHead>
           <TableRow>
-            <TableCell>Ad Soyad</TableCell>
-            <TableCell align="center">Dogum Yili</TableCell>
-            <TableCell align="center">Ulke</TableCell>
-            <TableCell align="center">Sil</TableCell>
-            <TableCell align="center">Guncelle</TableCell>
+            <TableCell sx={{fontWeight: 600}}>Ad Soyad</TableCell>
+            <TableCell sx={{fontWeight: 600}} align="center">Doğum Yılı</TableCell>
+            <TableCell sx={{fontWeight: 600}} align="center">Ülke</TableCell>
+            <TableCell sx={{fontWeight: 600}} align="center">Sil</TableCell>
+            <TableCell sx={{fontWeight: 600}} align="center">Güncelle</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>

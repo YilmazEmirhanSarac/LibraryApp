@@ -2,7 +2,7 @@ import './App.css'
 import Navbar from './components/Navbar/navbar'
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import Home from "./pages/Home/home";
+import Home from "./pages/Home/Home";
 import Author from "./pages/Author/Author";
 import Publisher from "./pages/Publisher/Publisher";
 import Book from "./pages/Book/Book";
