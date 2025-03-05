@@ -1,3 +1,7 @@
-Bu proje, React Router kullanılarak oluşturulmuş bir Single Page Application (SPA) olarak geliştirilmiştir. Kullanıcılar, Yayımcı, Kategori, Kitap, Yazar ve Kitap Alma gibi verileri CRUD (Create, Read, Update, Delete) işlemleri ile yönetebilir.
+# Library App Project
 
-proje linki: https://visionary-snickerdoodle-beabf0.netlify.app
+### Project Link :
+
+https://visionary-snickerdoodle-beabf0.netlify.app/
+
+This project is developed as a Single Page Application (SPA) using React Router. Users can manage data such as Publisher, Category, Book, Author, and Book Borrowing through CRUD (Create, Read, Update, Delete) operations.
